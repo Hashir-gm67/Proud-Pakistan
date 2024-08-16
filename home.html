@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Patriotic Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d4bdc3b12a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Celebrate Pakistan's Pride</h1>
+            <p>Honoring the land of the pure with unity, faith, and discipline.</p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Learn More</a>
+                <a href="#events" class="btn btn-secondary">Join Us</a>
+            </div>
+        </div>
+    </section>
+     <!-- Navigation Bar -->
+     <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                
+            <img src="img/logo.jpg" alt="Company Logo" class="logo">
+       
+            <a href="#">Pakistan</a>
+            </div>
+            <ul id="sidemenu" class="navbar-nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#history">History</a></li>
+                <li><a href="#gallery">Culture</a></li>
+                <li><a href="#heroes">Heroes</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </div>
+    </nav>
+    
+      <!-- About Pakistan Section -->
+      <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Pakistan</h2>
+                    <p>
+                        Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It has a rich history, vibrant culture, and a resilient spirit that has inspired the world. From the majestic peaks of the Karakoram to the bustling streets of Karachi, Pakistan is a land of diverse landscapes and people, united under one flag.
+                    </p>
+                    <a href="#history" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <img src="img/about.jpg" alt="Map of Pakistan">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- History -->
+    <section id="history" class="timeline-section">
+        <h2>Pakistan's Historical Timeline</h2>
+        <div class="timeline-container">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>1947</h3>
+                    <p>Independence of Pakistan.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>1965</h3>
+                    <p>Indo-Pak War.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>1971</h3>
+                    <p>Separation of East Pakistan.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>1998</h3>
+                    <p>Nuclear Tests in Chagai.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2018</h3>
+                    <p>Pakistan's General Elections.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2024</h3>
+                    <p>Pakistan's First  gold medal in Olympic.</p>
+                </div>
+            </div>
+            <!-- Add more timeline items as needed -->
+        </div>
+    </section>
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-slider">
+            <div class="slides">
+                <div class="slide active">
+                    <img src="img/music.jpg" alt="Image 1">
+                    <div class="description">Music History</div>
+                </div>
+                <div class="slide">
+                    <img src="img/art 2.jpg" alt="Image 2">
+                    <div class="description">Art and Crafts</div>
+                </div>
+                <div class="slide">
+                    <img src="img/cusine.jpg" alt="Image 3">
+                    <div class="description">Cuisine</div>
+                </div>
+                <div class="slide">
+                    <img src="img/let.jpg" alt="Image 3">
+                    <div class="description">Literature</div>
+                </div>
+                <div class="slide">
+                    <img src="img/hunza.jpg" alt="Image 3">
+                    <div class="description">Hunza Valley</div>
+                </div>
+                <div class="slide">
+                    <img src="img/mountains.png" alt="Image 3">
+                    <div class="description">Mountains</div>
+                </div>
+                <!-- Add more slides as needed -->
+            </div>
+            <div class="controls">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+            <div class="pagination">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <!-- Add more dots as needed -->
+            </div>
+        </div>
+    </section>
+    
+        
+   
+    <!-- Heroes of Pakistan Section -->
+    <section id="heroes" class="heroes-section">
+        <div class="container">
+            <h2>Our National Heroes</h2>
+            <div class="heroes-grid">
+                <div class="hero-item">
+                    <img src="img/jinnah.jpeg" alt="Quaid-e-Azam">
+                    <h3>Quaid-e-Azam</h3>
+                    <p>Quaid-e-Azam Muhammad Ali Jinnah, the founder of Pakistan, played a pivotal role in the creation of Pakistan. His leadership and vision continue to inspire the nation.</p>
+                </div>
+                <div class="hero-item">
+                    <img src="img/iqbal.jpg" alt="Allama Iqbal">
+                    <h3>Allama Iqbal</h3>
+                    <p>Allama Iqbal, known as the Poet of the East, inspired the idea of a separate homeland for Muslims in the Indian subcontinent through his powerful poetry and philosophy.</p>
+                </div>
+                <div class="hero-item">
+                    <img src="img/abdul sitar.jpeg" alt="Abdul Sattar Edhi">
+                    <h3>Abdul Sattar Edhi</h3>
+                    <p>Abdul Sattar Edhi, the founder of the Edhi Foundation, is revered for his humanitarian work. His legacy of selfless service to humanity lives on in Pakistan and beyond.</p>
+                </div>
+                <div class="hero-item">
+                    <img src="img/AQ khan.jpeg" alt="Malala Yousafzai">
+                    <h3> Abdul Qadeer Khan</h3>
+                    <p>Abdul Qadeer Khan, known as the father of Pakistan's nuclear program, played a pivotal role in making Pakistan a nuclear power by leading the development of the country's first atomic bomb.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Events & Celebrations Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2>Events & Celebrations</h2>
+            <div class="events-grid">
+                <div class="event-item">
+                    <img src="img/14aug.png" alt="Independence Day">
+                    <h3>Independence Day</h3>
+                    <p>Every year on August 14th, Pakistanis celebrate their independence with patriotic fervor, marked by flag hoisting ceremonies, parades, and cultural performances.</p>
+                </div>
+                <div class="event-item">
+                    <img src="img/23march.jpg" alt="Pakistan Day">
+                    <h3>Pakistan Day</h3>
+                    <p>On March 23rd, Pakistan Day commemorates the Lahore Resolution and the adoption of the first constitution of Pakistan with military parades and national pride.</p>
+                </div>
+                <div class="event-item">
+                    <img src="img/eid.jpeg" alt="Eid ul-Fitr">
+                    <h3>Eid ul-Fitr</h3>
+                    <p>Eid ul-Fitr marks the end of Ramadan, a joyous occasion celebrated with family gatherings, special prayers, and festive meals across the country.</p>
+                </div>
+                <div class="event-item">
+                    <img src="img/defence.jpeg" alt="Defence Day">
+                    <h3>Defence Day</h3>
+                    <p>Observed on September 6th, Defence Day honors the armed forces' sacrifices during the 1965 war, with ceremonies and tributes across the nation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials & Stories Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2>Testimonials & Stories</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-item">
+                    <p>"Pakistan is a land of hope and opportunity. Its beauty lies not only in its landscapes but in the resilience and warmth of its people."</p>
+                    <h3>– Fatima Jinnah</h3>
+                </div>
+                <div class="testimonial-item">
+                    <p>"The spirit of Pakistan lives in the heart of every citizen who dreams of a better tomorrow and works tirelessly to achieve it."</p>
+                    <h3>– Abdul Sattar Edhi</h3>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Are they happy with our God? Are they happy with our prophet? Are they happy with our leader? Never. I don't care about rest of the world. I care about my country."</p>
+                    <h3>– Abdul Qadeer Khan</h3>
+                </div>
+                <div class="testimonial-item">
+                    <p>"The story of Pakistan is a story of determination, courage, and unity. It is a beacon of hope for the world."</p>
+                    <h3>– Quaid-e-Azam Muhammad Ali Jinnah</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="symbols-section">
+        <h2>National Symbols of Pakistan</h2>
+        <div class="symbol-container">
+            <!-- Symbol 1: Flag -->
+            <div class="symbol" onclick="toggleInfo('flag-info')">
+                <img src="img/logo.jpg" alt="Pakistani Flag">
+                <h3>Pakistani Flag</h3>
+               
+            </div>
+
+            <!-- Symbol 2: National hero -->
+            <div class="symbol" onclick="toggleInfo('anthem-info')">
+                <img src="img/jinnah.jpeg" alt="National Anthem">
+                <h3>National Hero</h3>
+                
+            </div>
+            <!-- Symbol 3: National Poet -->
+            <div class="symbol" onclick="toggleInfo('flower-info')">
+                <img src="img/iqbal.jpg" alt="National Flower">
+                <h3>National Poet</h3>
+                
+            </div>
+             <!-- Symbol 4: National Flower -->
+             <div class="symbol" onclick="toggleInfo('flower-info')">
+                <img src="img/flower.jpeg" alt="National Flower">
+                <h3>National Flower</h3>
+                
+            </div>
+             <!-- Symbol 5: National Bird -->
+             <div class="symbol" onclick="toggleInfo('flower-info')">
+                <img src="img/bird.jpeg" alt="National Flower">
+                <h3>National Bird</h3>
+                
+            </div>
+            <!-- Symbol 6: National Sport -->
+            <div class="symbol" onclick="toggleInfo('flower-info')">
+                <img src="img/sport.jpeg" alt="National Flower">
+                <h3>National Sport</h3>
+               
+            </div>
+            <!-- Symbol 7: National Monument -->
+            <div class="symbol" onclick="toggleInfo('flower-info')">
+                <img src="img/monument.jpeg" alt="National Flower">
+                <h3>National Monument</h3>
+                
+            </div>
+
+          
+            
+            <!-- Symbol 8: National animal -->
+            <div class="symbol" onclick="toggleInfo('flower-info')">
+                <img src="img/animal.jpeg" alt="National Flower">
+                <h3>National Animal</h3>
+                
+            </div>
+            
+        </div>
+    </section>
+
+     <!-- Newsletter Signup Section -->
+     <section id="newsletter" class="newsletter-section">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter to receive the latest news, events, and stories about Pakistan directly in your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    <!-- Future -->
+    <section class="future-section">
+        <div class="future-content">
+            <h2>Vision for the Future</h2>
+            <p>Together, we can build a brighter future for Pakistan, one that embraces innovation, unity, and progress. Our journey continues with you.</p>
+            <a href="#" class="cta-button">Join Us in Shaping Pakistan's Future</a>
+        </div>
+    </section>
+     <!-- Footer Section -->
+     <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h1>Pakistan Proud</h1>
+                </div>
+                <div class="footer-contact">
+                    <h3>Give your Message</h3>
+                    <form action="YOUR_SERVER_ENDPOINT" method="post" class="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div id="contact" class="footer-contacts">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="frndezone81@gmail.com">frndezone81@gmail.com</a></p>
+                    <p>Phone: +92 300 1234567</p>
+                    <p>Address: I8, Islamabad, Pakistan</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pakistan Proud. All rights reserved by Team 2 Brīnums.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#top" class="back-to-top" id="backToTopBtn">
+        ↑
+    </a>
+
+    <script>
+        // JavaScript for Back to Top Button
+        const backToTopBtn = document.getElementById('backToTopBtn');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                backToTopBtn.style.opacity = 1;
+            } else {
+                backToTopBtn.style.opacity = 0;
+            }
+        });
+    </script>
+    <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const prevBtn = document.querySelector('.prev');
+    const nextBtn = document.querySelector('.next');
+
+    function showSlide(index) {
+        if (index >= slides.length) {
+            slideIndex = 0;
+        } else if (index < 0) {
+            slideIndex = slides.length - 1;
+        } else {
+            slideIndex = index;
+        }
+
+        slides.forEach((slide, i) => {
+            slide.style.display = 'none';
+            dots[i].classList.remove('active');
+        });
+
+        slides[slideIndex].style.display = 'block';
+        dots[slideIndex].classList.add('active');
+    }
+
+    function nextSlide() {
+        showSlide(slideIndex + 1);
+    }
+
+    function prevSlide() {
+        showSlide(slideIndex - 1);
+    }
+
+    function autoSlide() {
+        nextSlide();
+        setTimeout(autoSlide, 4000); // Change image every 2 seconds
+    }
+
+    prevBtn.addEventListener('click', prevSlide);
+    nextBtn.addEventListener('click', nextSlide);
+
+    dots.forEach((dot, i) => {
+        dot.addEventListener('click', () => {
+            showSlide(i);
+        });
+    });
+
+    showSlide(slideIndex); // Show the first slide initially
+    autoSlide(); // Start the automatic sliding
+});
+
+
+    </script>
+    <script>
+  function openmenu() {
+    document.getElementById('sidemenu').classList.add('show');
+}
+
+function closemenu() {
+    document.getElementById('sidemenu').classList.remove('show');
+}
+      </script>
+</body>
+</html>
